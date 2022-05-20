@@ -1,0 +1,137 @@
+
+.cards{
+    padding: 100px;
+    font-family: 'Ubuntu', sans-serif; ;
+    text-align: center;
+}
+
+.cards__row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards__p{
+    line-height: 1.5;
+    color: #73777B;
+}
+
+/* .cards__svg{
+    width:300px;
+} */
+
+.cards__h3{
+    color: #FF4949;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin:10px 0 20px;
+}
+
+.cards__b1, .cards__b2, .cards__b3, .cards__b4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.buble1, .buble2, .buble3, .buble4{
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+
+}
+.buble1{
+    background-color: white;
+    border: #6FB2D2 solid 5px;
+}
+.buble2{
+    background-color: white;
+    border: #92B4EC solid 5px;
+}
+
+.buble3{
+    background-color: white;
+    border: #FF4949 solid 5px;
+}
+
+.buble4{
+    background-color: white;
+    border: #73777B solid 5px;
+}
+
+.crad--span1, .crad--span2, .crad--span3 , .crad--span4{
+
+}
+.crad--span1{
+color:#6FB2D2
+}
+.crad--span2{
+color: #92B4EC;
+}
+.crad--span3{
+color: #FF4949;
+}
+.crad--span4{
+color: #73777B;
+}
+
+
+
+
+.cards__svg__1, .cards__svg__2, .cards__svg__3, .cards__svg__4{
+    width: 100px;
+}
+
+
+
+
+.cards__b1{
+    background-color: #6FB2D2;
+}
+
+.cards__svg__1{
+    filter: invert(99%) sepia(47%) saturate(0%) hue-rotate(52deg) brightness(117%) contrast(101%);
+   
+}
+
+.cards__b2{
+    background-color: #92B4EC;
+}
+
+.cards__svg__2{
+
+    filter: invert(99%) sepia(47%) saturate(0%) hue-rotate(52deg) brightness(117%) contrast(101%);
+}
+
+.cards__b3{
+    background-color: #FF4949;
+}
+
+.cards__svg__3{
+
+    filter: invert(99%) sepia(47%) saturate(0%) hue-rotate(52deg) brightness(117%) contrast(101%);
+}
+
+
+.cards__b4{
+    background-color: #73777B;
+}
+
+.cards__svg__4{
+
+    filter: invert(99%) sepia(47%) saturate(0%) hue-rotate(52deg) brightness(117%) contrast(101%);
+}
+    
+   
+
+
